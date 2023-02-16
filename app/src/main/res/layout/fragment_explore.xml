@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_color"
+    tools:context=".ExplorePage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        app:layout_constrainedHeight="true"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/menu_bar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="70dp"
+                    android:background="#00bbf9"
+                    android:backgroundTint="#00bbf9"
+                    android:foregroundGravity="center"
+                    app:cardCornerRadius="30dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="FACT CHECK !"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:backgroundTint="@color/white"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:layout_weight="2"
+                                android:src="@drawable/heartbeat" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="PROCTECTS HEART !!"
+                                    android:textColor="@color/black"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="Donating blood at least once a year could reduce your risk of a heart attack by 88 percent, according to a study conducted by the American Journal of Epidemiology."
+                                    android:textColor="#363a43"
+                                    android:textSize="17dp" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:backgroundTint="@color/white"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="205dp"
+                                android:layout_weight="2"
+                                android:src="@drawable/dropper" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="REDUCES RISK OF CANCER !!"
+                                    android:textColor="@color/black"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:paddingBottom="10dp"
+                                    android:text="The process of drawing blood) was found to be an iron-reduction method that is associated with lower cancer risk, according to a study published by the Journal of the National Cancer Institute."
+                                    android:textColor="#363a43"
+                                    android:textSize="17dp" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:backgroundTint="@color/white"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="185dp"
+                                android:layout_weight="2"
+                                android:src="@drawable/cell_division" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="ENHANCES NEW BLOOD CELL !!"
+                                    android:textColor="@color/black"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:paddingBottom="10dp"
+                                    android:text="New blood cells are produced and all the lost red blood cells are replaced within a span of 30 to 60 days. Hence, donating blood helps in maintaining vital health."
+                                    android:textColor="#363a43"
+                                    android:textSize="17dp" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                    <com.google.android.material.card.MaterialCardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginRight="13dp"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:backgroundTint="@color/white"
+                        app:cardCornerRadius="10dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <pl.droidsonroids.gif.GifImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:layout_weight="2"
+                                android:src="@drawable/medicine" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="SAVES LIVES !!"
+                                    android:textColor="@color/black"
+                                    android:textSize="20dp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:text="There is no substitute for human blood, and donated blood is the only source for many medical treatments, including cancer treatments, surgeries, and trauma care."
+                                    android:textColor="#363a43"
+                                    android:textSize="17dp" />
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+
+
+                    </com.google.android.material.card.MaterialCardView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
