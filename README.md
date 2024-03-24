@@ -1,8 +1,16 @@
 Below are the screenshot of The Sanjeevanam a Mediator app that connects Hospitals, individuals and Blood Banks all together to reduce Blood wastage and Blood Shortage in the Nation.
-![s7](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/280c6a6b-3cd1-4e59-8f15-d0bafe61e659)
-![s6](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/b5559b86-9638-4980-8142-21fa274871cb)
-![s5](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/b02ce3f8-0eba-4c5a-913b-d11a4e596a14)
-![s4](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/7b3be09d-603c-4ba9-9be8-e8f6bde68002)
-![s3](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/134c16bd-8e0a-4075-894c-978fd0c3975a)
-![s2](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/64f91906-9da0-4035-b89d-a46df534c1d8)
-![s1](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/ed8c9c2c-bb7d-4597-9446-177eb016ed66)
+![s1](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/7137d822-a555-49a3-8433-efe923d308f5)
+![s2](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/fc7f67cf-5a29-4243-b76c-f38cb7ada8b7)
+![s3](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/5de21dcc-fad3-4b32-ac25-cf72ece26a46)
+![s4](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/2ee8ae7c-b7a2-441b-a16c-9431332e53c3)
+![s5](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/3fa54db7-63c3-4ccf-adff-4618bdb7d516)
+![s6](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/820b152e-90da-4cf2-8ffb-afe87f3e05e0)
+![s7](https://github.com/arsh-kum04/Sanjeevanam_APP/assets/106028200/1428a322-5d88-4cd6-bed6-d5294753658f)
+
+
+
+
+
+
+
+
